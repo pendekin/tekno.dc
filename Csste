@@ -1,0 +1,15 @@
+/* slide pop up by wendy code */
+.wc-pop-sld{display:none}
+.wc-spop-sld{position:fixed;bottom:50px;right:0;width:50%;height:300px;box-shadow:0 -6px 18px 0 rgb(9 32 76 / 10%);transition:all .2s ease-in;display:flex;align-items:center;justify-content:center;background-color:#fefefe;z-index:50;border-top:1px solid #eceff1}
+.wc-sld-cls{width:50px;height:40px;display:flex;align-items:center;justify-content:center;border-radius:12px 12px 0 0;border:1px solid #eceff1;border-bottom:0;border-right:0;position:absolute;left:-45px;top:5px;background-color:inherit;-webkit-transform:rotate(270deg);transform:rotate(270deg)}
+.wc-sld-ktn iframe,.wc-sld-ktn img{width:100%;height:100%;bottom:0;right:0;border:0}
+.wc-sld-cls svg{width:18px;height:18px;fill:none!important;stroke:#48525c;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+.wc-sld-ktn{flex-grow:1;overflow:hidden;display:block;position:relative;width:100%;height:100%}
+.wc-pop-sld:checked ~ .wc-spop-sld{-webkit-transform:translateX(100%);transform:translateX(100%)}
+.wc-pop-sld:checked ~ .wc-spop-sld .wc-sld-ktn{display:none}
+.wc-pop-sld:checked ~ .wc-spop-sld .wc-sld-cls svg{-webkit-transform:rotate(180deg);transform:rotate(180deg)}
+@media screen and (min-width:650px) and (max-width:950px){.wc-spop-sld {width:60%!important}}
+@media screen and (max-width:650px){.wc-spop-sld{width:85%!important;height:200px!important}} 
+/* CSS dark mode sesuaikan class (.drK) jika berbeda agar dapat berfungsi */
+.drK .wc-spop-sld,.drK .wc-sld-cls{border-color:rgba(255,255,255,.1)}
+.drK .wc-spop-sld{background-color:#2d2d30}
