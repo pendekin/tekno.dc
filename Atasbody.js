@@ -1,13 +1,3 @@
-var grecap= "6LeYcvkeAAAAAH0s2ptetBVVOqjMKruRJRJhpmTK";
-/*MASUKAN RECAPTCHA secret key disini */
-var links = [
-'https://dc-safelink.blogspot.com/2016/04/ketahui-cara-mencegah-mata-ikan-yang.html#?o=1',
-'https://dc-safelink.blogspot.com/2016/04/ketahui-cara-mencegah-mata-ikan-yang.html#?o=1',
-'https://dc-safelink.blogspot.com/2016/04/ketahui-cara-mencegah-mata-ikan-yang.html#?o=1'
-  ];
-
-var timeleft = 17; /*waktu countdown*/
-var typo = "  Second - Please Wait"; /* Tulisan */
 -1!=window.location.href.indexOf("#?cap=1")&&(document.getElementById("cap").style.display=""),-1!=window.location.href.indexOf("#?nocap=1")&&(document.getElementById("nocap").style.display="");
 
 function goto()
