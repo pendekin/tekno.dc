@@ -1,16 +1,17 @@
-/* Silahkan edit kode berikut untuk mengubah warna */
+
+
 :root {
 
   --ewc-color-1: #ffffff;
-  --ewc-color-2: #eae1da;
-  --ewc-color-3: #25d366;
-  --ewc-color-3-dark: #0bac46;
-  --ewc-color-4: #00796a;
+  --ewc-color-2: #fefefe;
+  --ewc-color-3: #733FFF;
+  --ewc-color-3-dark: #733FFF;
+  --ewc-color-4: #733FFF;
 }
 
 .ewChat {
   position: fixed;
-  bottom: 15px;
+  bottom: 10%;
   right: 30px;
   font-family: "Roboto", sans-serif;
   margin: 0;
