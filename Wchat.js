@@ -1,8 +1,5 @@
-
-  // Ganti nomor WhatsApp berikut dengan nomor kamu
-
-  const NOMOR_WHATSAPP = "6285706528040"; //Pastikan nomor diawali dengan kode negara tanpa tanda "+" (cth. 085-XXX-XXX-XXX diubah mendaji 6285-XXX-XXX-XXX)
-  const ewc_hidden = document.querySelectorAll(".ewc_hidden");
+ const NOMOR_WHATSAPP = "6285706528040"; 
+ const ewc_hidden = document.querySelectorAll(".ewc_hidden");
   const ewc_button = document.querySelectorAll(".ewc_button");
   const ewc_audio = new Audio("https://res.cloudinary.com/xviidev/video/upload/v1642074623/whatsapp-web_tqjtgm.mp3");
   const ewcShow = () => {
@@ -47,5 +44,5 @@
     el.addEventListener("click", ewcOpen);
   });
   document.getElementById("ewc_send").addEventListener("click", () => {
-    window.open(`https://wa.me/${NOMOR_WHATSAPP}?text=${encodeURI( document.getElementById("ewc_message").value )}`);
+    window.open('https://wa.me/${NOMOR_WHATSAPP}?text=${encodeURI( document.getElementById("ewc_message").value )}');
   }); 
