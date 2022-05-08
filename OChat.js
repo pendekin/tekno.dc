@@ -1,7 +1,7 @@
 
   // Ganti nomor WhatsApp berikut dengan nomor kamu
 
-  const NOMOR_WHATSAPP = "6282229982018"; //Pastikan nomor diawali dengan kode negara tanpa tanda "+" (cth. 085-XXX-XXX-XXX diubah mendaji 6285-XXX-XXX-XXX)
+  const NOMOR_WHATSAPP = "6285706528040"; //Pastikan nomor diawali dengan kode negara tanpa tanda "+" (cth. 085-XXX-XXX-XXX diubah mendaji 6285-XXX-XXX-XXX)
   const ewc_hidden = document.querySelectorAll(".ewc_hidden");
   const ewc_button = document.querySelectorAll(".ewc_button");
   const ewc_audio = new Audio("https://res.cloudinary.com/xviidev/video/upload/v1642074623/whatsapp-web_tqjtgm.mp3");
